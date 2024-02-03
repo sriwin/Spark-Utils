@@ -14,7 +14,7 @@ val vaultScope = "az-kv-scope-name"
 val storageAccount = "strg-name"
 val blobContainer = "cntnr-name"
 val storageAccountSasKey = "strg-acc-adls-sas-key-name"
-val sourceFolder = "merge-files/output"
+val sourceFolder = "merge-files/input"
 
 val sourcePath = s"wasbs://$blobContainer@$storageAccount.blob.core.windows.net/$sourceFolder"
 val sasConfigKey = s"fs.azure.sas.$blobContainer.$storageAccount.blob.core.windows.net"
